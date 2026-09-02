@@ -1,0 +1,25 @@
+{
+    "monitoring": {
+        "enabled": true,
+        "sensitivity": "balanced",
+        "alertCooldownSeconds": 60,
+        "paths": ["testFiles"]
+    },
+    "logging": {
+        "retentionDays": 30,
+        "level": "INFO"
+    },
+    "model": {
+        "version": "current",
+        "path": "data/models/current/model.joblib"
+    },
+    "notifications": {
+        "enabled": true
+    },
+    "response": {
+        "mode": "alertOnly"
+    },
+    "ui": {
+        "theme": "dark"
+    }
+}

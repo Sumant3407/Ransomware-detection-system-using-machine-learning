@@ -47,3 +47,34 @@ Task for Resolver:
 For the machine learning project major privacy concern is that the user can't delete it's data with breaking the whole model. To counter this we will use "Machine Unlearning". Though this concept is new certain projects have attained 99.94% AUC for a Dataset of 2000 instances , 1000 Ransomware and 1000 renigns.
 
 Basic ideas for the projects are coming. In a week or so will start with building the project. 
+
+31/08/2026
+
+creating a dataset.
+
+collecting features such as:
+Timestamp
+ProcessID
+ProcessName
+FileReadCount
+FileWriteCount
+FileCreateCount
+FileRenameCount
+FileDeleteCount
+FilesModifiedPerMinute
+CPUUsage
+MemoryUsage
+NetworkBytes
+FileEntropy
+ExtensionChanges
+ProcessLifetime
+Label
+
+This custom dataset allows us to train our ML model to our liking.
+most importantly using unreliable data and wasting time filtering out useless data etc. is hard enough and we cant get desired dataset for the same.
+
+Using a python program we are going to record the above mentioned data. can collect real ransomware data by running them in virtual machines. Goal is to collect 1000 Benigns and 1000 Ransomware ans 200-500 false alerts.
+
+02/09/2026
+
+starting with machine learning programing. creating a program to collect data in different scenarios of ransomware attack, and multiple renigns.
