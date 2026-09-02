@@ -1,5 +1,5 @@
 # Ransomware Detection System
-
+#this is a testing environment.
 An offline-first Windows desktop application for detecting ransomware-like file behavior with machine learning. The application uses safe, non-destructive simulation for development and testing.
 
 ## 1. Requirements
